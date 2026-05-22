@@ -1,0 +1,27 @@
+H2O AutoML Test Metrics
+=======================
+
+Script purpose: model training only
+Sampling strategy: random sample 200,000 rows
+Train-test split: 80/20
+Balance classes in H2O: True
+Inference validation dataset: not used in this script
+
+Leader model id: StackedEnsemble_AllModels_1_AutoML_1_20260521_215026
+Leader algorithm: stackedensemble
+
+test_auc: 0.8227805641938851
+test_accuracy: 0.8406536428714793
+test_precision: 1.0
+test_recall: 1.0
+test_f1: 0.9059684463154581
+test_logloss: 0.3808196347118573
+test_mean_per_class_error: 0.25617730556270035
+
+Confusion Matrix:
+Confusion Matrix (Act/Pred) for max f1 @ threshold = 0.46332481874546183
+       0     1      Error    Rate
+-----  ----  -----  -------  ----------------
+0      4174  8217   0.6631   (8217.0/12391.0)
+1      1343  46054  0.0283   (1343.0/47397.0)
+Total  5517  54271  0.1599   (9560.0/59788.0)

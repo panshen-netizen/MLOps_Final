@@ -1,0 +1,28 @@
+Changed Feature Data Summary
+============================
+
+Script purpose:
+This script creates a changed version of the reserved inference validation dataset by swapping two feature columns.
+
+Input path: /Users/panshen/Desktop/MLOps_Final/data/inference_validation/hmda_inference_validation.csv
+Changed output path: /Users/panshen/Desktop/MLOps_Final/data/inference_validation/hmda_inference_validation_changed.csv
+Rows: 10000
+Target column: loan_approved
+
+Changed features:
+Feature A: loan_amount
+Feature B: property_value
+Change method: swap two feature columns
+
+Summary statistics:
+feature_a: loan_amount
+feature_b: property_value
+rows: 10000
+original_loan_amount_mean: 293278.0
+changed_loan_amount_mean: 508649.0
+original_property_value_mean: 508649.0
+changed_property_value_mean: 293278.0
+original_loan_amount_first_value: 655000.0
+changed_loan_amount_first_value: 815000.0
+original_property_value_first_value: 815000.0
+changed_property_value_first_value: 655000.0
